@@ -9,6 +9,10 @@ This repository contains the official implementation for the dental implant clas
 
 ## Repository Structure
 - `model/`: Architecture definition
-- `weights/`: Pre-trained model weights (.pth)
+- `weights/`
 - `inference.py`: Script to run classification on a single image
 - `requirements.txt`: List of dependencies
+
+### Model Weights
+Download the pre-trained weights from the [Release page].
+Please place the file in the 'weights/' directory before inference.
