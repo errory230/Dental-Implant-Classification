@@ -25,6 +25,8 @@ This repository contains the code for our study, which evaluates implant identif
 - aggregate.py	Summarizes per-split metrics as mean ± standard deviation.
 All experiments were run on Google Colab with a single NVIDIA Tesla T4 GPU. Training takes about one hour per split; all evaluation and figure scripts run on CPU.
 
-### Model Weights
-Download the pre-trained weights from the [Release page].
-Please place the file in the 'weights/' directory before inference.
+## Logits
+Sample logit outputs from the unknown test set and validation set are provided for reference.
+
+
+For further requests regarding the dataset, source code, or model weights, please contact the authors at sangyeonlee@catholic.ac.kr
