@@ -1,6 +1,7 @@
 # Dental-Implant-Classification
 
 This repository contains the official implementation for the dental implant classification model using the AI-Hub public dataset.
+For further requests regarding the dataset, source code, or model weights, please contact the authors at sangyeonlee@catholic.ac.kr
 
 ## Project Overview
 - **Objective:** Open-set classification and specification estimation of dental implants from radiographic images.
@@ -29,4 +30,3 @@ All experiments were run on Google Colab with a single NVIDIA Tesla T4 GPU. Trai
 Sample logit outputs from the unknown test set and validation set are provided for reference.
 
 
-For further requests regarding the dataset, source code, or model weights, please contact the authors at sangyeonlee@catholic.ac.kr
