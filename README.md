@@ -13,10 +13,6 @@ This repository contains the code for our study, which evaluates implant identif
 
 
 ## Code repository
-- build_index.py	Parses image filenames into a dataset index and defines known and unknown classes.
-- check_dataset.py	Checks dates, repeated imaging, image sizes, and duplicate files before freezing the dataset.
-- finalize_index.py	Removes invalid and duplicate images and assigns implant and group IDs.
-- make_splits.py	Creates ten group-aware, class-stratified train/validation/test splits.
 - common.py	Shared dataset, image transforms, and backbone utilities.
 - arpl.py	ARPL loss following the official implementation.
 - openmax.py	OpenMax and MAV distance scoring on classifier logits.
